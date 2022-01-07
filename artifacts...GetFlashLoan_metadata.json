@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "action",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "tokenName",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "tokenSymbol",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_tokenName",
+						"type": "string"
+					},
+					{
+						"name": "_tokenSymbol",
+						"type": "string"
+					},
+					{
+						"name": "_loanAmount",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bnbflashloan2022.sol": "GetFlashLoan"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bnbflashloan2022.sol": {
+			"keccak256": "0x2dbae944978c2747e2a6ea3f47a5d048e251b62ccdd7b260ce51391ce00806ec",
+			"urls": [
+				"bzzr://a9e3beee3f62c0a259ad1e676e89218d296d02275cb2464b6294c91d771ed52a"
+			]
+		},
+		"https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPool.sol": {
+			"keccak256": "0x303218975caabea2fcf0c95afa600230ac0b3a961ff80405acda472798c60c06",
+			"urls": [
+				"bzzr://8a4db4d9e8fc71df92dbda25a11faebfbaf94bb51204ffd3b7da5abc9703d248"
+			]
+		},
+		"https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+			"keccak256": "0x298c3131b5ec0d2144ec1f668519a777642b56ef915c283f86ee36520d1b7a59",
+			"urls": [
+				"bzzr://b4b5b409d62f6768be8c5ea5ea98553a7ac37fe36653f1772dfa3d8b2a5995e0"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol": {
+			"keccak256": "0xf4099e1dc40e09405ab439ba78dbd1ee3bd6eaf8042bdf26d7fd66b282c33afc",
+			"urls": [
+				"bzzr://9de13b22e5b4c4ca9fb73f6babefc3f2a14ea24651c23475077c7a866ba0aeb2"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol": {
+			"keccak256": "0x5aa3cb565f2793e4ae2b90e716aa5f5d38bf68f6f09caa62fe2395db27171faf",
+			"urls": [
+				"bzzr://29ee7395c7d9291d80862bd66a4c21247bb1f7b03a7cf444e8a09ea2ba3e93b5"
+			]
+		},
+		"https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol": {
+			"keccak256": "0xc432aeec5c038f15c3670ee6128ce41dbfa1f7a9979dc37b967213436ae77b33",
+			"urls": [
+				"bzzr://847fd98809b95a4eaed1438928b28408b7279beabc53cfedd04cf1bee33beaf9"
+			]
+		},
+		"ipfs://QmPNgyPJp7m56LTamHjMkmWCAP1uCBmH8UzDxRDqTdqwX4": {
+			"keccak256": "0xfaab6513d276ff0a8418d3dd5acb57e32aa1ba6a9b718f849f4041cfe5433997",
+			"urls": [
+				"bzzr://7fbe3368087f0b92c360dffda13757d8e90f08386bc44c60a485858506bea9a8"
+			]
+		}
+	},
+	"version": 1
+}
